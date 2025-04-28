@@ -1,0 +1,127 @@
+\doxysection{ssuds\+::Ordered\+Set\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>} Class Template Reference}
+\hypertarget{classssuds_1_1_ordered_set}{}\label{classssuds_1_1_ordered_set}\index{ssuds::OrderedSet$<$ T $>$@{ssuds::OrderedSet$<$ T $>$}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classssuds_1_1_ordered_set_a2cc65c0fabdf82d3980a3cf635ccb9ce}{insert}} (const T \&val)
+\begin{DoxyCompactList}\small\item\em Creates a node in the ordered set. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classssuds_1_1_ordered_set_aee7137b5b2b60a21b3095179984f4da3}{contains}} (const T \&val) const
+\begin{DoxyCompactList}\small\item\em Checks if an ordered set has a given value somewhere, and will return true or false based on its findings. \end{DoxyCompactList}\item 
+\Hypertarget{classssuds_1_1_ordered_set_a5e5793d063c806969ef1a0387d90a356}\label{classssuds_1_1_ordered_set_a5e5793d063c806969ef1a0387d90a356} 
+void {\bfseries rebalance} ()
+\begin{DoxyCompactList}\small\item\em Changes the node looked at as the root. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{classssuds_1_1_ordered_set_a4a6908e7ef9d10f26d40137a76f59b85}{size}} ()
+\begin{DoxyCompactList}\small\item\em Returns the amount of nodes in an ordered set. \end{DoxyCompactList}\item 
+\Hypertarget{classssuds_1_1_ordered_set_a2541e0758a82ecd556a1b62a82b16f00}\label{classssuds_1_1_ordered_set_a2541e0758a82ecd556a1b62a82b16f00} 
+void {\bfseries clear} ()
+\begin{DoxyCompactList}\small\item\em Removes all nodes in the ordered set. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{classssuds_1_1_ordered_set_ad38f67804d6d943e4bf56d1da8e7ab00}{get\+\_\+height}} ()
+\begin{DoxyCompactList}\small\item\em Returns the amount of nodes from the root to the furthest leaf. \end{DoxyCompactList}\item 
+\Hypertarget{classssuds_1_1_ordered_set_adef226bb4d52723826ba9ef98f540040}\label{classssuds_1_1_ordered_set_adef226bb4d52723826ba9ef98f540040} 
+bool {\bfseries erase} (const T \&val)
+\item 
+Node \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classssuds_1_1_ordered_set_a7e6a8da1a80267d482bcb83dc37dc696}{get\+\_\+parent}} (const T \&val)
+\begin{DoxyCompactList}\small\item\em Returns pointer to the node above the one containing the given value. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classssuds_1_1_ordered_set_aee7137b5b2b60a21b3095179984f4da3}\index{ssuds::OrderedSet$<$ T $>$@{ssuds::OrderedSet$<$ T $>$}!contains@{contains}}
+\index{contains@{contains}!ssuds::OrderedSet$<$ T $>$@{ssuds::OrderedSet$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{contains()}{contains()}}
+{\footnotesize\ttfamily \label{classssuds_1_1_ordered_set_aee7137b5b2b60a21b3095179984f4da3} 
+template$<$class T$>$ \\
+bool \mbox{\hyperlink{classssuds_1_1_ordered_set}{ssuds\+::\+Ordered\+Set}}$<$ T $>$\+::contains (\begin{DoxyParamCaption}\item[{const T \&}]{val}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Checks if an ordered set has a given value somewhere, and will return true or false based on its findings. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em val} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\Hypertarget{classssuds_1_1_ordered_set_ad38f67804d6d943e4bf56d1da8e7ab00}\index{ssuds::OrderedSet$<$ T $>$@{ssuds::OrderedSet$<$ T $>$}!get\_height@{get\_height}}
+\index{get\_height@{get\_height}!ssuds::OrderedSet$<$ T $>$@{ssuds::OrderedSet$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{get\_height()}{get\_height()}}
+{\footnotesize\ttfamily \label{classssuds_1_1_ordered_set_ad38f67804d6d943e4bf56d1da8e7ab00} 
+template$<$class T$>$ \\
+unsigned int \mbox{\hyperlink{classssuds_1_1_ordered_set}{ssuds\+::\+Ordered\+Set}}$<$ T $>$\+::get\+\_\+height (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Returns the amount of nodes from the root to the furthest leaf. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em val} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\Hypertarget{classssuds_1_1_ordered_set_a7e6a8da1a80267d482bcb83dc37dc696}\index{ssuds::OrderedSet$<$ T $>$@{ssuds::OrderedSet$<$ T $>$}!get\_parent@{get\_parent}}
+\index{get\_parent@{get\_parent}!ssuds::OrderedSet$<$ T $>$@{ssuds::OrderedSet$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{get\_parent()}{get\_parent()}}
+{\footnotesize\ttfamily \label{classssuds_1_1_ordered_set_a7e6a8da1a80267d482bcb83dc37dc696} 
+template$<$class T$>$ \\
+Node \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classssuds_1_1_ordered_set}{ssuds\+::\+Ordered\+Set}}$<$ T $>$\+::get\+\_\+parent (\begin{DoxyParamCaption}\item[{const T \&}]{val}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Returns pointer to the node above the one containing the given value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em val} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\Hypertarget{classssuds_1_1_ordered_set_a2cc65c0fabdf82d3980a3cf635ccb9ce}\index{ssuds::OrderedSet$<$ T $>$@{ssuds::OrderedSet$<$ T $>$}!insert@{insert}}
+\index{insert@{insert}!ssuds::OrderedSet$<$ T $>$@{ssuds::OrderedSet$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{insert()}{insert()}}
+{\footnotesize\ttfamily \label{classssuds_1_1_ordered_set_a2cc65c0fabdf82d3980a3cf635ccb9ce} 
+template$<$class T$>$ \\
+bool \mbox{\hyperlink{classssuds_1_1_ordered_set}{ssuds\+::\+Ordered\+Set}}$<$ T $>$\+::insert (\begin{DoxyParamCaption}\item[{const T \&}]{val}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Creates a node in the ordered set. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em val} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\Hypertarget{classssuds_1_1_ordered_set_a4a6908e7ef9d10f26d40137a76f59b85}\index{ssuds::OrderedSet$<$ T $>$@{ssuds::OrderedSet$<$ T $>$}!size@{size}}
+\index{size@{size}!ssuds::OrderedSet$<$ T $>$@{ssuds::OrderedSet$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{size()}{size()}}
+{\footnotesize\ttfamily \label{classssuds_1_1_ordered_set_a4a6908e7ef9d10f26d40137a76f59b85} 
+template$<$class T$>$ \\
+unsigned int \mbox{\hyperlink{classssuds_1_1_ordered_set}{ssuds\+::\+Ordered\+Set}}$<$ T $>$\+::size (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Returns the amount of nodes in an ordered set. 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/ssuds/ordered\+\_\+set.\+h\end{DoxyCompactItemize}

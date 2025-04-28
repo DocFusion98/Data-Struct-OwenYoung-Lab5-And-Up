@@ -6,5 +6,5 @@ var searchData=
   ['set_5fposition_3',['set_position',['../classssuds__drawing_1_1_text_circle.html#a9ab6a2a04abace768350d2b9a88d0db0',1,'ssuds_drawing::TextCircle']]],
   ['set_5fstring_4',['set_string',['../classssuds__drawing_1_1_text_circle.html#a22fa668f117936e01ef46dbcc3b14861',1,'ssuds_drawing::TextCircle']]],
   ['shrink_5',['shrink',['../classssuds_1_1_array_list.html#ae18613568842335b1d115958d2f34bab',1,'ssuds::ArrayList']]],
-  ['size_6',['size',['../classssuds_1_1_array_list.html#adbcd61184deb92c36610e47b91a7b6d5',1,'ssuds::ArrayList::size()'],['../classssuds_1_1_linked_list.html#aa9e9190255924687e8a3490e3b03fad7',1,'ssuds::LinkedList::size()']]]
+  ['size_6',['size',['../classssuds_1_1_array_list.html#adbcd61184deb92c36610e47b91a7b6d5',1,'ssuds::ArrayList::size()'],['../classssuds_1_1_linked_list.html#aa9e9190255924687e8a3490e3b03fad7',1,'ssuds::LinkedList::size()'],['../classssuds_1_1_ordered_set.html#a4a6908e7ef9d10f26d40137a76f59b85',1,'ssuds::OrderedSet::size()']]]
 ];

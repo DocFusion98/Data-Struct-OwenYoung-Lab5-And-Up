@@ -3,7 +3,7 @@
 #include <iostream>
 
 
-
+/*
 class LinkedListTests : public::testing::Test {
 protected:
 	LinkedListTests() {
@@ -80,7 +80,7 @@ TEST_F(LinkedListTests, Prepend) {
 	EXPECT_EQ(list4.size(), 9);
 }
 
-/*
+
 TEST_F(LinkedListTests, FindIter) {
 	EXPECT_EQ(list5.find_it(6), 2);
 }

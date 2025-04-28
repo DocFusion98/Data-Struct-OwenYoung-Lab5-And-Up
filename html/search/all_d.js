@@ -1,11 +1,10 @@
 var searchData=
 [
-  ['set_5fcircle_5fcolor_0',['set_circle_color',['../classssuds__drawing_1_1_text_circle.html#af30b59ae2731165bb1257ce311847f6c',1,'ssuds_drawing::TextCircle']]],
-  ['set_5ffont_5fcolor_1',['set_font_color',['../classssuds__drawing_1_1_text_circle.html#a228cbaff4ea3031cc53dd9169f622100',1,'ssuds_drawing::TextCircle']]],
-  ['set_5fhours_5fworked_2',['set_hours_worked',['../classexample_1_1_person.html#a02cba471db0d286320e823bba4a8072e',1,'example::Person']]],
-  ['set_5fposition_3',['set_position',['../classssuds__drawing_1_1_text_circle.html#a9ab6a2a04abace768350d2b9a88d0db0',1,'ssuds_drawing::TextCircle']]],
-  ['set_5fstring_4',['set_string',['../classssuds__drawing_1_1_text_circle.html#a22fa668f117936e01ef46dbcc3b14861',1,'ssuds_drawing::TextCircle']]],
-  ['shrink_5',['shrink',['../classssuds_1_1_array_list.html#ae18613568842335b1d115958d2f34bab',1,'ssuds::ArrayList']]],
-  ['size_6',['size',['../classssuds_1_1_array_list.html#adbcd61184deb92c36610e47b91a7b6d5',1,'ssuds::ArrayList::size()'],['../classssuds_1_1_linked_list.html#aa9e9190255924687e8a3490e3b03fad7',1,'ssuds::LinkedList::size()']]],
-  ['ssuds25_7',['ssuds25',['../index.html',1,'']]]
+  ['rbegin_0',['rbegin',['../classssuds_1_1_array_list.html#abfcec39c654ee0a0d25d033809b1af44',1,'ssuds::ArrayList']]],
+  ['rebalance_1',['rebalance',['../classssuds_1_1_ordered_set.html#a5e5793d063c806969ef1a0387d90a356',1,'ssuds::OrderedSet']]],
+  ['remove_2',['remove',['../classssuds_1_1_array_list.html#afb8ccd2d3ede88c6041032f2acb7bc17',1,'ssuds::ArrayList::remove(unsigned int index, bool resize_if_necessary=true)'],['../classssuds_1_1_array_list.html#a4aaf7be94a8d5c7c7a54cc9a4ee58763',1,'ssuds::ArrayList::remove(const ArrayListIterator &amp;it)'],['../classssuds_1_1_linked_list.html#a7f298b5537170676c636141ecc1bac01',1,'ssuds::LinkedList::remove()']]],
+  ['remove_5fall_3',['remove_all',['../classssuds_1_1_array_list.html#a47e4c18bb5fbcacabf07fb7cad038f9b',1,'ssuds::ArrayList::remove_all()'],['../classssuds_1_1_linked_list.html#a85e5c876290abfad0e43e5f883cafc2c',1,'ssuds::LinkedList::remove_all()']]],
+  ['remove_5fperson_4',['remove_person',['../classexample_1_1_person_database.html#a831835c506fa66d02deb9e16db7145de',1,'example::PersonDatabase']]],
+  ['rend_5',['rend',['../classssuds_1_1_array_list.html#a8d4c6c8324263cb02cad484f59bf0039',1,'ssuds::ArrayList::rend()'],['../classssuds_1_1_linked_list.html#a93fca275abf3287fd97c72747708fdaa',1,'ssuds::LinkedList::rend()']]],
+  ['reserve_6',['reserve',['../classssuds_1_1_array_list.html#a891330426da480ed1bbbfb29fb018b3a',1,'ssuds::ArrayList']]]
 ];

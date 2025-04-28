@@ -1,9 +1,7 @@
 var searchData=
 [
-  ['rbegin_0',['rbegin',['../classssuds_1_1_array_list.html#abfcec39c654ee0a0d25d033809b1af44',1,'ssuds::ArrayList']]],
-  ['remove_1',['remove',['../classssuds_1_1_array_list.html#afb8ccd2d3ede88c6041032f2acb7bc17',1,'ssuds::ArrayList::remove(unsigned int index, bool resize_if_necessary=true)'],['../classssuds_1_1_array_list.html#a4aaf7be94a8d5c7c7a54cc9a4ee58763',1,'ssuds::ArrayList::remove(const ArrayListIterator &amp;it)'],['../classssuds_1_1_linked_list.html#a7f298b5537170676c636141ecc1bac01',1,'ssuds::LinkedList::remove()']]],
-  ['remove_5fall_2',['remove_all',['../classssuds_1_1_array_list.html#a47e4c18bb5fbcacabf07fb7cad038f9b',1,'ssuds::ArrayList::remove_all()'],['../classssuds_1_1_linked_list.html#a85e5c876290abfad0e43e5f883cafc2c',1,'ssuds::LinkedList::remove_all()']]],
-  ['remove_5fperson_3',['remove_person',['../classexample_1_1_person_database.html#a831835c506fa66d02deb9e16db7145de',1,'example::PersonDatabase']]],
-  ['rend_4',['rend',['../classssuds_1_1_array_list.html#a8d4c6c8324263cb02cad484f59bf0039',1,'ssuds::ArrayList::rend()'],['../classssuds_1_1_linked_list.html#a93fca275abf3287fd97c72747708fdaa',1,'ssuds::LinkedList::rend()']]],
-  ['reserve_5',['reserve',['../classssuds_1_1_array_list.html#a891330426da480ed1bbbfb29fb018b3a',1,'ssuds::ArrayList']]]
+  ['person_0',['Person',['../classexample_1_1_person.html',1,'example::Person'],['../classexample_1_1_person.html#a13cef9dd175bcc612ae4fca575f91bc5',1,'example::Person::Person()'],['../classexample_1_1_person.html#a65581079655d7a538d88fe513564c952',1,'example::Person::Person(const std::string &amp;starting_fname, const std::string &amp;starting_lname, unsigned int id, float starting_rate)']]],
+  ['persondatabase_1',['PersonDatabase',['../classexample_1_1_person_database.html',1,'example::PersonDatabase'],['../classexample_1_1_person_database.html#a5845e87cbf0ef0dc90192020a9dfd8b9',1,'example::PersonDatabase::PersonDatabase()']]],
+  ['point_5finside_2',['point_inside',['../classssuds__drawing_1_1_text_circle.html#af0dcd1a0e7aef895d660cd7491fabbf5',1,'ssuds_drawing::TextCircle']]],
+  ['prepend_3',['prepend',['../classssuds_1_1_linked_list.html#a7d3865ab50ad2e2d47f0f7fa7435c053',1,'ssuds::LinkedList']]]
 ];

@@ -12,13 +12,17 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\src\ssuds\array_list_utility_tests.cpp" />
+    <ClCompile Include="..\..\src\ssuds\hash_map_test.cpp" />
+    <ClCompile Include="..\..\src\ssuds\ordered_sets_tests.cpp" />
     <ClCompile Include="..\..\src\ssuds\ssuds_unit_tests_main.cpp" />
     <ClCompile Include="..\linked_list_tests.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\include\ssuds\array_list.h" />
     <ClInclude Include="..\..\include\ssuds\array_list_utility.h" />
+    <ClInclude Include="..\..\include\ssuds\hash_map.h" />
     <ClInclude Include="..\..\include\ssuds\linked_list.h" />
+    <ClInclude Include="..\..\include\ssuds\ordered_set.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
