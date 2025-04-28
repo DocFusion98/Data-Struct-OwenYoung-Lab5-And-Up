@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['wordreader_0',['WordReader',['../classexample_1_1_word_reader.html',1,'example']]]
+  ['textcircle_0',['TextCircle',['../classssuds__drawing_1_1_text_circle.html',1,'ssuds_drawing']]]
 ];

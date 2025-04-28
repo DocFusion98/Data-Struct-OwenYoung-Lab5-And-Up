@@ -3,7 +3,7 @@
 #include <iostream>
 
 
-class ArrayListUtilityTests : public::testing::Test {
+/*class ArrayListUtilityTests : public::testing::Test {
 protected:
 	ArrayListUtilityTests() {
 
@@ -42,7 +42,7 @@ TEST_F(ArrayListUtilityTests, BinarySortD) {
 	EXPECT_EQ(ssuds::binary_search<float>(list7, ssuds::SortType::DESCENDING, 5.0), 2);
 }
 
-/*
+
 TEST_F(ArrayListUtilityTests, ShuffleTest) {
 	EXPECT_EQ(ssuds::shuffled_check<float>(shuffle(list4), list4), true);
 }

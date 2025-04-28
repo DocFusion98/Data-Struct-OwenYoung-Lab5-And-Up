@@ -1,13 +1,21 @@
 var searchData=
 [
-  ['operator_21_3d_0',['operator!=',['../classssuds_1_1_array_list_1_1_array_list_iterator.html#a1a8587603e2089159ede221302f3369c',1,'ssuds::ArrayList::ArrayListIterator']]],
-  ['operator_2a_1',['operator*',['../classssuds_1_1_array_list_1_1_array_list_iterator.html#a39de701f0efb0415bb468d9597f80781',1,'ssuds::ArrayList::ArrayListIterator']]],
-  ['operator_2b_2',['operator+',['../classssuds_1_1_array_list_1_1_array_list_iterator.html#a01ccdf6a0af8a08bbf960e3ace28ba4d',1,'ssuds::ArrayList::ArrayListIterator']]],
-  ['operator_2b_2b_3',['operator++',['../classssuds_1_1_array_list_1_1_array_list_iterator.html#a810e9117c0fc681a26c39575f2bcfb6e',1,'ssuds::ArrayList::ArrayListIterator::operator++()'],['../classssuds_1_1_array_list_1_1_array_list_iterator.html#a22177dd9c3e0ae7b2c4afe87c6ccd51d',1,'ssuds::ArrayList::ArrayListIterator::operator++(int not_used)']]],
-  ['operator_2d_4',['operator-',['../classssuds_1_1_array_list_1_1_array_list_iterator.html#ae5a0b7ee8c18a93031e2352ea20f7e78',1,'ssuds::ArrayList::ArrayListIterator']]],
-  ['operator_3c_3c_5',['operator&lt;&lt;',['../classssuds_1_1_array_list.html#a9bb180c1f0d6bbe33037e1a8b0d6f5e4',1,'ssuds::ArrayList']]],
-  ['operator_3d_6',['operator=',['../classssuds_1_1_array_list_1_1_array_list_iterator.html#add4129161b3fabe7b5e39ef589eb1bb4',1,'ssuds::ArrayList::ArrayListIterator::operator=()'],['../classssuds_1_1_array_list.html#a6334ec5abee5dbc48aafcdf46a390670',1,'ssuds::ArrayList::operator=()']]],
-  ['operator_3d_3d_7',['operator==',['../classssuds_1_1_array_list_1_1_array_list_iterator.html#ad28ae6dd5bfe06af7f912c1ddcb37db3',1,'ssuds::ArrayList::ArrayListIterator']]],
-  ['operator_5b_5d_8',['operator[]',['../classssuds_1_1_array_list.html#a8f2e0b06a3bf7bdc5fbe20c95cec1c6b',1,'ssuds::ArrayList']]],
-  ['output_9',['output',['../classssuds_1_1_array_list.html#a8fb940eeacbdef50b05dac3f2e681ab8',1,'ssuds::ArrayList']]]
+  ['marray_0',['mArray',['../classexample_1_1_person_database.html#a098b0d09ebea53a45dc32ff1443ce5a9',1,'example::PersonDatabase']]],
+  ['marraylist_1',['mArrayList',['../classssuds_1_1_array_list_1_1_array_list_iterator.html#a5a0791302942958d971811b834ef6856',1,'ssuds::ArrayList::ArrayListIterator']]],
+  ['marraysize_2',['mArraySize',['../classexample_1_1_person_database.html#a204a18327955cce58e9426c5002b7d34',1,'example::PersonDatabase']]],
+  ['mcapacity_3',['mCapacity',['../classssuds_1_1_array_list.html#ac4487ae34800f88539054c3721568c10',1,'ssuds::ArrayList']]],
+  ['mcircle_4',['mCircle',['../classssuds__drawing_1_1_text_circle.html#a6d7aa4045ca2b82f97914056cbfe58e2',1,'ssuds_drawing::TextCircle']]],
+  ['mcurnode_5',['mCurNode',['../classssuds_1_1_linked_list_1_1_linked_list_iterator.html#a52772bf30dfed211ca3d68b260a091a2',1,'ssuds::LinkedList::LinkedListIterator']]],
+  ['mfilename_6',['mFilename',['../classexample_1_1_person_database.html#adb71d6cc7a2946203261a5cc72f11618',1,'example::PersonDatabase']]],
+  ['mfirstname_7',['mFirstName',['../classexample_1_1_person.html#a1ddb0f7b4af376a796a292774c800446',1,'example::Person']]],
+  ['mhourlyrate_8',['mHourlyRate',['../classexample_1_1_person.html#a491e688adc589d8647e748e12302d258',1,'example::Person']]],
+  ['mhoursworked_9',['mHoursWorked',['../classexample_1_1_person.html#a0ee332c7783fb539a8dc28eb1e1d4567',1,'example::Person']]],
+  ['mid_10',['mID',['../classexample_1_1_person.html#ac34349cfda9e55dca641c305d395d699',1,'example::Person']]],
+  ['mlastname_11',['mLastName',['../classexample_1_1_person.html#ae59560fb0c802535e086be1c57be6511',1,'example::Person']]],
+  ['mposition_12',['mPosition',['../classssuds_1_1_array_list_1_1_array_list_iterator.html#a7b8f3274af3fb7365ea699ad26af085a',1,'ssuds::ArrayList::ArrayListIterator']]],
+  ['msize_13',['mSize',['../classssuds_1_1_array_list.html#a8f68ee08bdbaa2f26d017816e4e46e42',1,'ssuds::ArrayList']]],
+  ['msmincapacity_14',['msMinCapacity',['../classssuds_1_1_array_list.html#a5b588e6e70c9a9b5cacbc7ce5b971490',1,'ssuds::ArrayList']]],
+  ['mtext_15',['mText',['../classssuds__drawing_1_1_text_circle.html#ae03601f0c645810875fd825f63ebfedf',1,'ssuds_drawing::TextCircle']]],
+  ['mtextrect_16',['mTextRect',['../classssuds__drawing_1_1_text_circle.html#a30cb13b3a4a7ee0f5bc0a427b49b2b1d',1,'ssuds_drawing::TextCircle']]],
+  ['mtype_17',['mType',['../classssuds_1_1_array_list_1_1_array_list_iterator.html#a3cdb75fe5ae36d356e522015085661f8',1,'ssuds::ArrayList::ArrayListIterator::mType'],['../classssuds_1_1_linked_list_1_1_linked_list_iterator.html#a6323fa48dbe8400be0812e6e11533f81',1,'ssuds::LinkedList::LinkedListIterator::mType']]]
 ];

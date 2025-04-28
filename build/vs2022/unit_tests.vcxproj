@@ -13,10 +13,12 @@
   <ItemGroup>
     <ClCompile Include="..\..\src\ssuds\array_list_utility_tests.cpp" />
     <ClCompile Include="..\..\src\ssuds\ssuds_unit_tests_main.cpp" />
+    <ClCompile Include="..\linked_list_tests.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\include\ssuds\array_list.h" />
     <ClInclude Include="..\..\include\ssuds\array_list_utility.h" />
+    <ClInclude Include="..\..\include\ssuds\linked_list.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

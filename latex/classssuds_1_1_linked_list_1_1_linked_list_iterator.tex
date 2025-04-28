@@ -1,0 +1,69 @@
+\doxysection{ssuds\+::Linked\+List\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>}\+::Linked\+List\+Iterator Class Reference}
+\hypertarget{classssuds_1_1_linked_list_1_1_linked_list_iterator}{}\label{classssuds_1_1_linked_list_1_1_linked_list_iterator}\index{ssuds::LinkedList$<$ T $>$::LinkedListIterator@{ssuds::LinkedList$<$ T $>$::LinkedListIterator}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classssuds_1_1_linked_list_1_1_linked_list_iterator_ab808764b69910247801d98937ed6a453}{Linked\+List\+Iterator}} (Node \texorpdfstring{$\ast$}{*}cur\+\_\+node, Linked\+List\+Iterator\+Type dir)
+\begin{DoxyCompactList}\small\item\em The main constructor. \end{DoxyCompactList}\item 
+\Hypertarget{classssuds_1_1_linked_list_1_1_linked_list_iterator_ae4c4442dc4b48e1d8abe8af011edf896}\label{classssuds_1_1_linked_list_1_1_linked_list_iterator_ae4c4442dc4b48e1d8abe8af011edf896} 
+void {\bfseries operator++} ()
+\item 
+\Hypertarget{classssuds_1_1_linked_list_1_1_linked_list_iterator_a63c06ca09eaeedb1e555c07ce9a59cbb}\label{classssuds_1_1_linked_list_1_1_linked_list_iterator_a63c06ca09eaeedb1e555c07ce9a59cbb} 
+bool {\bfseries operator==} (const \mbox{\hyperlink{classssuds_1_1_linked_list_1_1_linked_list_iterator}{Linked\+List\+Iterator}} \&other)
+\item 
+\Hypertarget{classssuds_1_1_linked_list_1_1_linked_list_iterator_a4a4028879bfd13ff45faa45c1621dced}\label{classssuds_1_1_linked_list_1_1_linked_list_iterator_a4a4028879bfd13ff45faa45c1621dced} 
+bool {\bfseries operator!=} (const \mbox{\hyperlink{classssuds_1_1_linked_list_1_1_linked_list_iterator}{Linked\+List\+Iterator}} \&other)
+\item 
+\Hypertarget{classssuds_1_1_linked_list_1_1_linked_list_iterator_a96d3dac2b51098914fd9b7bdada7b2b3}\label{classssuds_1_1_linked_list_1_1_linked_list_iterator_a96d3dac2b51098914fd9b7bdada7b2b3} 
+\mbox{\hyperlink{classssuds_1_1_linked_list_1_1_linked_list_iterator}{Linked\+List\+Iterator}} {\bfseries operator+} (int num)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Node \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classssuds_1_1_linked_list_1_1_linked_list_iterator_a52772bf30dfed211ca3d68b260a091a2}{m\+Cur\+Node}}
+\begin{DoxyCompactList}\small\item\em A pointer to the containing \doxylink{classssuds_1_1_linked_list}{Linked\+List}. \end{DoxyCompactList}\item 
+\Hypertarget{classssuds_1_1_linked_list_1_1_linked_list_iterator_a6323fa48dbe8400be0812e6e11533f81}\label{classssuds_1_1_linked_list_1_1_linked_list_iterator_a6323fa48dbe8400be0812e6e11533f81} 
+Linked\+List\+Iterator\+Type {\bfseries m\+Type}
+\begin{DoxyCompactList}\small\item\em Which type of iterator are we? \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classssuds_1_1_linked_list_1_1_linked_list_iterator_ab808764b69910247801d98937ed6a453}\index{ssuds::LinkedList$<$ T $>$::LinkedListIterator@{ssuds::LinkedList$<$ T $>$::LinkedListIterator}!LinkedListIterator@{LinkedListIterator}}
+\index{LinkedListIterator@{LinkedListIterator}!ssuds::LinkedList$<$ T $>$::LinkedListIterator@{ssuds::LinkedList$<$ T $>$::LinkedListIterator}}
+\doxysubsubsection{\texorpdfstring{LinkedListIterator()}{LinkedListIterator()}}
+{\footnotesize\ttfamily \label{classssuds_1_1_linked_list_1_1_linked_list_iterator_ab808764b69910247801d98937ed6a453} 
+template$<$class T$>$ \\
+\mbox{\hyperlink{classssuds_1_1_linked_list}{ssuds\+::\+Linked\+List}}$<$ T $>$\+::\+Linked\+List\+Iterator\+::\+Linked\+List\+Iterator (\begin{DoxyParamCaption}\item[{Node \texorpdfstring{$\ast$}{*}}]{cur\+\_\+node}{, }\item[{Linked\+List\+Iterator\+Type}]{dir}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+The main constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em arr} & The \doxylink{classssuds_1_1_linked_list}{Linked\+List} we are to traverse\\
+\hline
+{\em tp} & What type of traversal to do\\
+\hline
+{\em start\+\_\+index} & The index to start on\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classssuds_1_1_linked_list_1_1_linked_list_iterator_a52772bf30dfed211ca3d68b260a091a2}\index{ssuds::LinkedList$<$ T $>$::LinkedListIterator@{ssuds::LinkedList$<$ T $>$::LinkedListIterator}!mCurNode@{mCurNode}}
+\index{mCurNode@{mCurNode}!ssuds::LinkedList$<$ T $>$::LinkedListIterator@{ssuds::LinkedList$<$ T $>$::LinkedListIterator}}
+\doxysubsubsection{\texorpdfstring{mCurNode}{mCurNode}}
+{\footnotesize\ttfamily \label{classssuds_1_1_linked_list_1_1_linked_list_iterator_a52772bf30dfed211ca3d68b260a091a2} 
+template$<$class T$>$ \\
+Node\texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classssuds_1_1_linked_list}{ssuds\+::\+Linked\+List}}$<$ T $>$\+::\+Linked\+List\+Iterator\+::m\+Cur\+Node\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+A pointer to the containing \doxylink{classssuds_1_1_linked_list}{Linked\+List}. 
+
+The current position within the linked list. Anything from 0...Linked\+List\+Size-\/1 is considered "{}valid"{}, all other values are invalid 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/ssuds/linked\+\_\+list.\+h\end{DoxyCompactItemize}
